@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-wrapper .fa-bars {
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 20px
+}
+
+.story-text {
+  height: 130px;
+}
+
+.dash-status {
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  #delete-form {
+    display: inline;
+  }
+}
+
+.mbt {
+  margin-bottom: 5px;
+}
