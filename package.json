@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "App to share public or write private stories",
   "main": "app.js",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/kkthecompguy/Storybook.git"
+    },
   "scripts": {
     "start": "node app.js"
   },
@@ -17,6 +21,7 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "express-session": "^1.16.1",
+    "lodash": "^4.17.13",
     "method-override": "^3.0.0",
     "moment": "^2.24.0",
     "mongoose": "^5.5.4",
